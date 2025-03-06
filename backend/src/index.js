@@ -18,6 +18,6 @@ app.use("/api/auth", router)
 app.use("/api/message", messageRoutes)
 
 app.listen(PORT, ()=>{
-    console.log('app is running on port no 5001 ')
+    console.log('app is running on port no  ')
     connectDB();
 });
